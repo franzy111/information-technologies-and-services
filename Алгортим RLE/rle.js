@@ -28,8 +28,8 @@ function code(){
 function decode() {
 	let fs = require('fs');
 	
-	let inText, newText = '', symbol = '';
-	let i = 0, n = 1, stringfromcharcode = 0;
+	let inText, newText = '';
+	let i = 0, n = 1;
 
 	inText = fs.readFileSync(arg[3]);
 	inText = inText.toString();
