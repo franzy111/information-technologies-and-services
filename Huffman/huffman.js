@@ -6,10 +6,6 @@ try{
 }catch (err){
 	console.log(err);
 }
-
-
-
-
 function Node(letter, freq, used, father, code){
 	this.letter = letter;
 	this.freq = freq;
@@ -46,7 +42,6 @@ if (treeLength == 1){
 	tree[0].code = '0';
 	allCodes[tree[0].letter] = '0';
 }
-//console.log(encodedStr);
 else{
 	for (let i = 0; i < treeLength - 1; i++){
 		let minFreqFirst = Infinity, minFreqSecond = Infinity;
