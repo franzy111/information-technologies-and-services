@@ -21,6 +21,7 @@ for(let j = 0; j < substrLength; j++){
     for(i in alph)
         del[j + 1][i]=del[prev][i]
 }
+
 let state = 0;
 let positions = new Array();
 for (let i = 0; i < str.length; i++){
